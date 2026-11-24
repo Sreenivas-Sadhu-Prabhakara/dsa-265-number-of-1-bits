@@ -12,6 +12,13 @@ Subtracting 1 flips the lowest set bit to 0 and everything below it to 1s; ANDin
 
 **Complexity:** O(set bits) time, O(1) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
